@@ -1,0 +1,125 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin-top: 0px;
+  padding: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #3d405b;
+}
+.fa {
+  color: aliceblue;
+  margin-right: 0.5em;
+  font-size: 55px;
+}
+.conteiner {
+  border-radius: 10%;
+  height: 90vh;
+  width: 60vw;
+  background-color: #131516;
+  .logo {
+    margin-top: 0.5em;
+    display: flex;
+    justify-content: center;
+    a {
+      height: 100%;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      img {
+        height: 20%;
+        width: 20%;
+      }
+    }
+  }
+  .title {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    p {
+      font-size: 2em;
+      color: aliceblue;
+      margin-top: 0.5em;
+    }
+  }
+  .forms {
+    width: 100%;
+    .gmailForm {
+      display: flex;
+      justify-content: center;
+      i {
+        display: flex;
+        align-items: center;
+      }
+      input {
+        padding: 0.7em;
+        border: 0;
+        outline: none;
+        border-radius: 2em;
+      }
+    }
+    .passwordForm {
+      display: flex;
+      justify-content: center;
+      margin-top: 1em;
+      i {
+        display: flex;
+        align-items: center;
+      }
+      input {
+        padding: 0.7em;
+        border: 0;
+        outline: none;
+        border-radius: 2em;
+      }
+    }
+  }
+  .button {
+    display: flex;
+    justify-content: center;
+    margin-top: 1em;
+    margin-left: 1.5em;
+    button {
+      padding: 0.7em;
+      border: 0;
+      outline: none;
+      width: 14.5em;
+      background-color: #3d405b;
+      cursor: pointer;
+      color: aliceblue;
+      border-radius: 2em;
+      // margin-top: 1em;
+      margin-bottom: 3em;
+    }
+  }
+  .repasswordAndRegistration {
+    display: flex;
+    justify-content: center;
+    margin-left: 3em;
+    p {
+      margin-right: 3em;
+      cursor: pointer;
+      color: aliceblue;
+    }
+    a {
+      margin-right: 3em;
+      cursor: pointer;
+      color: aliceblue;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-decoration: none;
+    }
+  }
+  .repasswordAndRegistration {
+    margin-bottom: 2em;
+    p:hover {
+      color: red;
+    }
+    a:hover {
+      color: red;
+    }
+  }
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/Post/add/add.css">
+</head>
+<body>
+    <div class="head flexCentre">
+        <div class="conteiner">
+            <div class="photo flexCentre">
+                <a href="/index.html">
+                
+                </a>
+                <img src="/assets/logo.png" alt="" id="mainlogo" style="height: 90px; width: 90px;">
+            </div>
+            <div class="addFirst flexCentre">
+                <input type="text" placeholder="ქალაქი" id="city" name="uname" required>
+                <input type="text" placeholder="რეგიონი" name="uname" id="region" required>
+                <input type="text" placeholder="მისამართი" name="uname" id="address" required>
+            </div>
+            <div class="addSecond flexCentre">
+                <input type="text" placeholder="სასტუმროს დასახელება" id="name" name="uname" required>
+                <input type="text" placeholder="ადამიანების რაოდენობა" id="persons" name="uname" required>
+                <input type="text" placeholder="ოთახების რაოდენობა" id="room" name="uname" required>
+            </div>
+            <div class="addThird flexCentre">
+                <input type="text" placeholder="სასტუმროს ფასი" name="uname" id="price" required>
+                <input type="text" placeholder="შეფასება (1 - 5)" name="uname" id="rating" required>
+            </div>
+            <div class="textArea flexCentre">
+                <textarea name="comment" form="usrform" id="description">დაახასიათეთ თქვენი სასტუმრო</textarea>
+            </div>
+            <div class="chosePhoto flexCentre">
+                <input type="file" id="file" class="button1" accept="image/*" multiple>
+                <label for="file">დაამატეთ ფოტო</label>
+            </div>
+            <div class="button flexCentre">
+                <button class="button1" id="submit">დამატება</button>
+            </div>
+        </div>
+    </div>
+    <script src="/Post/add.js"></script>  
+</body>
+</html>

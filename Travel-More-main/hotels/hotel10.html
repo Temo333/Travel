@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/hotel/hotels.css">
+</head>
+<body>
+    <!--navigacia-->
+    <header>
+        <div class="logo">
+            <a href="#">
+            <img src="/assets/logo.png" alt="LOGO">
+           </a>
+    </div>
+        <div class="items">
+            <ul id="toedit">
+                <li class="active" style="border-bottom: 1px solid white;"><a href="#">მთავარი</a></li>
+                <li><a href="" id="getIn">შესვლა</a></li>
+                <li><a href="#">კონტაქტი</a></li>
+                <li><a href="" target="_blank" id="addhotel"><i class="fas fa-plus-square"></i></a></li>
+            </ul>
+        </div>
+    </header>
+
+    <div class="main">
+        <div class="imgslider" id="imgslider">
+            <img id="hotelimg" src="../assets/Rectangle 49.jpg" alt="" name="slide">
+            <div class="sliderbtns" id="sliderbtns">
+                <button id="left">უკან</button>
+                <button id="right">წინ</button>
+            </div>
+        </div>
+        <div class="content">
+            <div class="name">
+                <p class="name" id="hotelname">სასტუმრო</p>
+            </div>
+            <div class="city">
+                <span>ქალაქი: </span>
+                <p class="city" id="hotelcity">თბილისი</p>
+            </div>
+            <div class="address">
+                <span>მისამართი: </span>
+                <p class="address" id="hoteladdress">ისანი, ლილო #31</p>
+            </div>
+            <div class="price">
+                <span>ფასი: </span>
+                <div class="gel">
+                    <p id="hotelprice">50</p>
+                    <span id="lari">₾</span>
+                </div>
+            </div>
+            <div class="rooms">
+                <span>ოთახების რაოდენობა: </span>
+                <p class="room" id="hotelroom">4</p>
+            </div>
+            <div class="rating">
+                <span>შეფასება: </span>
+                <p id="hotelrating">3</p>
+            </div>
+            <div class="descript">
+                <span>აღწერა: </span>
+                <p id="agwera">თბილისის ზღვის სასტუმრო მდებარეობს ივერთ უბანი 3-ის მოპირდაპირედ, თბილისის წყნარი ადგილი  მათთვის ვისაც  ქალაქის ხმაურისგან  დასვენება უნდა.სასტუმრო ახალ- აშენებულია, კომფორტული და სუფთა, თითოეული ოთახი ინდივიდუალური სველი წერტილით. ჩვენთან უყვართ სტუმრები და მომსახურე პერსონალი უზრუნველყოფს მშვიდ და კომფორტულ დასვენებას.</p>
+            </div>
+            <div class="btn">
+                <button id="dajavshna">დაჯავშნა</button>
+            </div>
+        </div>
+    </div>
+    <div class="calendar">
+        
+    </div>
+
+    <script type="module">
+        import getHotel from '/hotels/hotel.js'
+        import checkIfManager from '/hotels/hotel.js'
+        getHotel(9)
+        checkIfManager(9)
+    </script>
+</body>
+</html>

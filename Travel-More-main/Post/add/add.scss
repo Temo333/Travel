@@ -1,0 +1,99 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #3d405b;
+  height: 100vh;
+  width: 100vw;
+  .flexCentre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    input {
+      margin-right: 1.5em;
+      padding: 1em;
+      border-radius: 2em;
+      border: 0;
+      outline: none;
+    }
+  }
+}
+.head {
+  .conteiner {
+    background: #131516;
+    border-radius: 2em;
+    height: 90vh;
+    width: 80vw;
+    margin-top: 2%;
+    .photo {
+        
+      img {
+        height: 30%;
+        width: 30%;
+      }
+    }
+    .addFirst {
+      margin-top: 1.5em;
+    }
+    .addSecond {
+      margin-top: 1.5em;
+    }
+    .addThird {
+      margin-top: 1.5em;
+    }
+    .textArea {
+      margin-top: 1.5em;
+      textarea {
+        height: 20vh;
+        width: 85%;
+      }
+    }
+    .button {
+      .button1 {
+        margin: 1.2em;
+        padding-right: 1.3em;
+        padding-left: 1.3em;
+        padding-top: 0.5em;
+        padding-bottom: 0.5em;
+        background-color: #3d407b;
+        border-radius: 2em;
+        outline: none;
+        border: 0;
+      }
+      .button1:hover{
+        background-color: #3d405b;
+      }
+    }
+    .chosePhoto {
+      input[type="file"]{
+        display: none;
+      }
+      label{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 2em;
+        margin-top: 10px;
+        width: 10em;
+        height: 40px;
+        text-align: center;
+        background-color: #3d407b;
+      }
+      label:hover{
+        background-color: #3d405b;
+      }
+      button {
+        display: none;
+        margin-top: 0.6em;
+        padding: 0.5em;
+        border-radius: 2em;
+        width: 10em;
+        background-color: #3d407b;
+        outline: none;
+        border: 0;
+      }
+      button:hover{
+        background-color: #3d405b;
+      }
+    }
+  }
+}

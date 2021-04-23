@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="./scss/loginAndRegistration.css">
+    <script src="https://use.fontawesome.com/085ad9982e.js"></script>
+</head>
+<body>
+    <div class="conteiner">
+        <div class="logo">
+            <a href="./index.html">
+                <img src="./assets/logo.png" alt="">
+            </a>
+        </div>
+        <div class="title">
+            <p>შესვლა</p>
+        </div>
+        <div class="forms">
+            <div class="gmailForm">
+                <i class="fa fa-envelope"></i>
+                <input type="text" placeholder="ელ.ფოსტა" name="uname" required id="user">
+            </div>
+            <div class="passwordForm">
+                <i class="fa fa-key"></i>
+                <input type="password" placeholder="პაროლი" id="pass" name="psw" required>
+            </div>
+        </div>
+        <div class="button">
+            <button type="button" id="submit">შესვლა</button>
+        </div>
+        <div class="repasswordAndRegistration">
+            <p>პაროლის აღდგენა</p>
+            <a href="./registrationForm.html">
+                რეგისტრაცია
+            </a>
+        </div>
+    </div>
+<div id="addhotel"></div>
+<div id="search"></div>
+
+    <script type="module" src="login.js"></script>
+</body>
+</html>

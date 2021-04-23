@@ -1,0 +1,195 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin-top: 0px;
+  padding: 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #3d405b;
+}
+
+.fa {
+  color: aliceblue;
+  margin-right: 0.5em;
+  font-size: 55px;
+}
+
+.conteiner {
+  border-radius: 10%;
+  height: 90vh;
+  width: 60vw;
+  background-color: #131516;
+}
+
+.conteiner .logo {
+  margin-top: 0.5em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.conteiner .logo a {
+  height: 100%;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.conteiner .logo a img {
+  height: 20%;
+  width: 20%;
+}
+
+.conteiner .title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+}
+
+.conteiner .title p {
+  font-size: 2em;
+  color: aliceblue;
+  margin-top: 0.5em;
+}
+
+.conteiner .forms {
+  width: 100%;
+}
+
+.conteiner .forms .gmailForm {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.conteiner .forms .gmailForm i {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.conteiner .forms .gmailForm input {
+  padding: 0.7em;
+  border: 0;
+  outline: none;
+  border-radius: 2em;
+}
+
+.conteiner .forms .passwordForm {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 1em;
+}
+
+.conteiner .forms .passwordForm i {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.conteiner .forms .passwordForm input {
+  padding: 0.7em;
+  border: 0;
+  outline: none;
+  border-radius: 2em;
+}
+
+.conteiner .button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 1em;
+  margin-left: 1.5em;
+}
+
+.conteiner .button button {
+  padding: 0.7em;
+  border: 0;
+  outline: none;
+  width: 14.5em;
+  background-color: #3d405b;
+  cursor: pointer;
+  color: aliceblue;
+  border-radius: 2em;
+  margin-bottom: 3em;
+}
+
+.conteiner .repasswordAndRegistration {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-left: 3em;
+}
+
+.conteiner .repasswordAndRegistration p {
+  margin-right: 3em;
+  cursor: pointer;
+  color: aliceblue;
+}
+
+.conteiner .repasswordAndRegistration a {
+  margin-right: 3em;
+  cursor: pointer;
+  color: aliceblue;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-decoration: none;
+}
+
+.conteiner .repasswordAndRegistration {
+  margin-bottom: 2em;
+}
+
+.conteiner .repasswordAndRegistration p:hover {
+  color: red;
+}
+
+.conteiner .repasswordAndRegistration a:hover {
+  color: red;
+}
+/*# sourceMappingURL=loginAndRegistration.css.map */
